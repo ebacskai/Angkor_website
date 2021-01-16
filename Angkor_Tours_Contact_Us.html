@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Angkor Tours - Contact Us</title>
+<link rel=stylesheet type="text/css" href="stylesheet.css">
+<link href="https://fonts.googleapis.com/css?family=Quattrocento%7CQuattrocento+Sans&display=swap" rel="stylesheet">
+<style>
+    
+ 
+</style></head>
+<body>
+<div id="wrapper">
+<nav> 
+   <ul>
+       <li><a id="logo" href="Angkor_Tours_Home.html"><img src="img/Angkor_tours_logo1.svg" height=auto width="200" alt="Angkor Tours logo"></a></li>
+       <li><a class='button' href="Angkor_Tours_Home.html">Home</a></li>
+        <li><a class='button' href="Angkor_Tours_Tours.html">Tours</a></li>
+        <li><a class='button' href="Angkor_Tours_Activities.html">Activities</a></li>
+       <li><a class='button' href="Angkor_Tours_Maps.html">Maps</a></li>
+        <li><a class='button selected' href="Angkor_Tours_Contact_Us.html">Contact&nbsp;Us</a></li>
+    </ul>
+</nav>
+
+<h2>Contact Us</h2>
+    <p class="intro"></p>
+<div id="contact_page">
+<aside>
+<figure>
+<img src="img/small-team.jpg" alt="Our Team" width="300">
+    <figcaption>Our Team</figcaption></figure>
+<figure>
+<img src="img/small-Our-Fleet.jpg" alt="Our Fleet" width="300">
+    <figcaption>Our Fleet</figcaption></figure>
+<figure>
+<img src="img/location.png" alt="Our Location" width="300">
+    <figcaption>Our Location</figcaption></figure>
+</aside>
+<main>
+    <form method="post" action="mailto:ebacskai@mywvm.wvm.edu" enctype="text/plain" onsubmit="window.alert('Your info has been mailed.')">
+<fieldset id="customer_info">
+<legend>Contact Form</legend>
+<p>Fill out this form and our Customer Service Consultants will contact you within a few hours.</p>
+<ul>
+<li>
+<label for="customer-name">Name:</label> 
+<input type="text" name="customer" id="customer-name" class="textinput" maxlength="40">
+</li>
+<li>
+<label for="customer-email">Email:</label> 
+<input type="email" name="email" id="customer-email" class="textinput" maxlength="40">
+</li>
+<li>
+<label for="customer-phone">Phone Number:</label> 
+<input type="tel" name="tel" id="customer-phone" class="textinput" maxlength="40">
+</li>
+<li>
+<label for="customer-country">Country:</label>
+<select name="country" id="customer-country">
+<!--size="3" multiple-->    
+<option selected>United States</option>
+<option>Canada</option>
+<option>Mexico</option>
+</select>
+</li>
+<li> 
+<label for="message">Message:</label>
+<textarea name="message" id="message" cols="40" rows="10">Type your message here.
+</textarea>
+</li>
+</ul>
+<input type="hidden" name="success" value="success.htm">
+<input type="submit" value="Send">
+<input type="reset" value="Clear">
+</fieldset>
+</form>
+</main>
+</div>
+<footer>
+    <address>
+    <p>6 National Road 6<br>Siem Reap, Cambodia 98765<br>+855 92&nbsp;00&nbsp;00&nbsp;00</p>
+    <p><a href="mailto:booking@angkortours.com">booking@angkortours.com</a></p>
+    </address>
+    <p>&copy; Angkor Tours 2019. All rights reserved.</p>
+</footer>
+</div>
+</body>
+</html>
